@@ -1,6 +1,5 @@
 import React from 'react';
 /** @jsxImportSource theme-ui */
-import { theme } from '../theme';
 
 import {
     Box,
@@ -14,9 +13,9 @@ import {
  * 
  */
 
-// INPUT: Mock 'props', must be passed through 'props' object from parent, fields: 'title', 'subtitle', 'body'
+// INPUTS: Mock 'props', must be passed through 'props' object from parent, fields: 'title', 'subtitle', 'body', and 'dictionary'
 
-// OUTPUT: View from object array: String + ranking
+// OUTPUT: View from object array: fields: String + ranking
 
 // METHODS: 
 // 1. Slice String

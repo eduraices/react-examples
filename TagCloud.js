@@ -13,7 +13,8 @@ import {
  * 
  */
 
-// INPUTS: Mock 'props', must be passed through 'props' object from parent, fields: 'title', 'subtitle', 'body', and 'dictionary'
+// INPUTS: Mock 'props', must be passed through 'props' object from parent, has 4 fields type String array, named: 'title', 'subtitle', 'body', 'filter' 
+// and last 1 field object with key-map, named 'dictionary'
 
 // OUTPUT: View from object array: fields: String + ranking
 
@@ -21,7 +22,7 @@ import {
 // 1. Slice String
 // 2. Count words
 // 3. Count pairs of words between points.
-// 4. Filter words by dictionary
+// 4. Filter words by dictionaries
 // 5. Filter by relevance
 
 

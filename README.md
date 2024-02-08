@@ -1,7 +1,8 @@
 # react-examples
 Shared from student to students
 
-## Related links
-[Hooks: useEffect(), nice tutorial, by daveceddia ](https://daveceddia.com/useeffect-hook-examples/)
+# MainLayoutWithHistory.js
 
-![reallyNiceCheatsheet](https://user-images.githubusercontent.com/57029303/152279016-5d2e61c1-00f0-4879-9e6e-a225a867ca05.png)
+Needed "react-router-dom" and "history" packages, via "npm install".
+
+Since you import history object, you will be able to navigate programmatically back and forward in the window.history stack
